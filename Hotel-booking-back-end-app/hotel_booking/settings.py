@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-
+    'apps.users', 
+    'apps.bookings',
+    'apps.hotels',
+    'apps.reviews',
 ]
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -82,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # MySQL backend
         'NAME': 'hotel_booking_dev',           # Tên database bạn tạo trên MySQL
         'USER': 'root',                   # User MySQL
-        'PASSWORD': '11112222',               # Password của user
+        'PASSWORD': '90h97129',               # Password của user
         'HOST': 'localhost',                  # Nếu MySQL chạy trên cùng máy
         'PORT': '3306',                        # Port mặc định của MySQL
         'OPTIONS': {
